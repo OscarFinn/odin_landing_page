@@ -164,12 +164,12 @@ h1 {
 
 .signup {
     display: flex;
-    margin: 128px;
+    margin: 32px;
     background-color: #3882F6;
     color: #F9FAF8;
     flex-direction: row;
     border-radius: 8px;
-    padding: 32px 128px;
+    padding: 32px 32px;
     justify-content: space-between;
     font-size: 24px;
     align-items: center;
@@ -204,6 +204,10 @@ h1 {
     }
     .placeholder {
         flex: 1;
+    }
+    .signup {
+        margin: 128px;
+        padding: 32px 128px;
     }
     
 }
